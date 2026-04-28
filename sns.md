@@ -44,14 +44,17 @@ Voir la charge du firewall :
 ```
 sfctl -s proaddr
 ```
-
+```
 sfctl -s protaddr
+```
 Afficher les routes  :
+```
 netstat -rn
-
-Forcer une interface en particulier pour le Syslog
+```
+Forcer une interface en particulier pour le Syslog (depuis le CLI):
+```
 CONFIG COMMUNICATION SYSLOG PROFILE UPDATE index=0 BindAddr=Firewall_RRA-EXT
-
+```
 
 
 Pour une résolution d'un nom de domaine :
