@@ -35,15 +35,16 @@ openssl req -text -noout -verify -in <file>.csr
 openssl verify -verbose -CAfile cacert.pem  server.crt
 ```
 ### Vérifier la cohérence entre une clé privée, un demande de signature et un certificat :
-Vérifier un .csr :
+Vérifier une demande de signature :
 ```
 openssl req -noout -modulus -in mycsr.csr | openssl md5
 ```
-Vérifier un .crt:
+Vérifier un certificat :
 ```
 openssl x509 -noout -modulus -in mycert.crt | openssl md5
 ```
-Vérifier un .key:
+Vérifier une clée privée :
 ```
 openssl rsa -noout -modulus -in server.key | openssl md5
 ```
+Comparer ensuite les hashs MD5.
