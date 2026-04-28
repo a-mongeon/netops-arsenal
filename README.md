@@ -2,7 +2,7 @@
 Commandes diverses pour du debug réseau (et un peu système)
 
 ## Stormshield Network Security
-* ![Commandes relatives à la gestion/debug du VPN IPsec](#vpn-ipsec)
+* ![Commandes relatives à la gestion/debug du VPN IPsec](https://github.com/a-mongeon/netops-arsenal/blob/main/README.md#vpn-ipsec)
 
 ### VPN IPsec
 
