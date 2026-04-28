@@ -3,6 +3,8 @@ Commandes diverses pour du debug réseau (et un peu système)
 
 ## Stormshield Network Security
 
+### VPN IPsec
+
 Pour réactiver toutes les politiques VPN IPSEC :
 ```
 envpn -u
@@ -23,6 +25,8 @@ Voir sir le daemon charon est lancé :
 ```
 dstat charon
 ```
+
+### Filtrage
 Monitorer une connexion :
 ```
 sfctl -s conn -nv -T -H host=188.231.45.9 -H port=4500
@@ -35,6 +39,7 @@ Forcer la récupération d'une CRL :
 ```
 checkcrl -d -t 10
 ```
+### Divers
 Voir la charge du firewall :
 ```
 top -CHPS
@@ -55,8 +60,6 @@ CONFIG COMMUNICATION SYSLOG PROFILE UPDATE index=0 BindAddr=Firewall_RRA-EXT
 
 Pour une résolution d'un nom de domaine :
 objectsync -4 -t google.com
-<img width="732" height="555" alt="image" src="https://github.com/user-attachments/assets/947bb48e-cc20-4520-9620-69c831e65b58" />
-
 
 ## OpenSSL
 
