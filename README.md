@@ -14,3 +14,9 @@ Commandes diverses pour du debug réseau.
 
 ## Divers
 * [OpenSSL](https://github.com/a-mongeon/netops-arsenal/blob/main/openssl.md)
+
+## Online tools
+* [Rechercher l'historique d'un certificat d'un domaine](https://crt.sh/)
+* [CHMOD calculator](https://chmod-calculator.com/)
+* [Expressions regulières](https://regex101.com/)
+* [Calculs de masques réseaux](https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/)
