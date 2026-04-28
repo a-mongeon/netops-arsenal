@@ -53,7 +53,7 @@ netstat -rn
 ```
 Forcer une interface en particulier pour le Syslog (depuis le CLI):
 ```
-CONFIG COMMUNICATION SYSLOG PROFILE UPDATE index=0 BindAddr=Firewall_RRA-EXT
+CONFIG COMMUNICATION SYSLOG PROFILE UPDATE index=0 BindAddr=Firewall_in
 ```
 
 
