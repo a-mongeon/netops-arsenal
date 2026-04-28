@@ -28,14 +28,21 @@ Monitorer une connexion :
 sfctl -s conn -nv -T -H host=188.231.45.9 -H port=4500
 ```
 Lister le contenu de la blacklist :
+```
 sfctl -s addrlist
+```
 Forcer la récupération d'une CRL :
-checkcrl
-checkcrl -d (pour le mode debug)
+```
+checkcrl -d -t 10
+```
 Voir la charge du firewall :
+```
 top -CHPS
+```
 Voir la charge du firewall :
-Sfctl -s proaddr
+```
+sfctl -s proaddr
+```
 
 sfctl -s protaddr
 Afficher les routes  :
