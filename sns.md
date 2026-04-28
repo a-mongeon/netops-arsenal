@@ -43,6 +43,14 @@ sfctl -s addrlist
 ```
 
 ## Divers
+Tester si le firewall peut joindre une adresse IP en particulier :
+```
+telnet 192.168.1.1 22
+```
+Tester si le firewall peut joindre une adresse IP en particulier (et forcer une adresse IP source) :
+```
+telnet -s 192.168.1.254 192.168.1.1 22
+```
 Voir la charge du firewall :
 ```
 top -CHPS
