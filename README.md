@@ -1,45 +1,8 @@
 # NetOps Arsenal
 Commandes diverses pour du debug réseau (et un peu système)
 
-## Stormshield Network Security
-* [Commandes relatives à la gestion/debug du VPN IPsec](https://github.com/a-mongeon/netops-arsenal/blob/main/README.md#vpn-ipsec).
-* [Commandes relatives à la gestion/debug du filtrage](https://github.com/a-mongeon/netops-arsenal/blob/main/README.md#filtrage).
-
-### Filtrage
-Monitorer une connexion :
-```
-sfctl -s conn -nv -T -H host=188.231.45.9 -H port=4500
-```
-Lister le contenu de la blacklist :
-```
-sfctl -s addrlist
-```
-Forcer la récupération d'une CRL :
-```
-checkcrl -d -t 10
-```
-### Divers
-Voir la charge du firewall :
-```
-top -CHPS
-```
-Voir la charge du firewall :
-```
-sfctl -s proaddr
-```
-
-sfctl -s protaddr
-Afficher les routes  :
-netstat -rn
-
-Forcer une interface en particulier pour le Syslog
-CONFIG COMMUNICATION SYSLOG PROFILE UPDATE index=0 BindAddr=Firewall_RRA-EXT
-
-
-
-Pour une résolution d'un nom de domaine :
-objectsync -4 -t google.com
-
+* [Stormshield Network Security](https://github.com/a-mongeon/netops-arsenal/blob/main/sns.md)
+* [OpenSSL]()
 ## OpenSSL
 
 ### Afficher les SAN avec OpenSSL d'un serveur :
