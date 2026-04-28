@@ -24,9 +24,13 @@ dstat charon
 ```
 
 ## Réseau
-Afficher les routes  :
+### Afficher les routes  :
 ```
 netstat -rn
+```
+### Obtenir la route pour une adresse IP en particulier :
+```
+route -n get 192.168.1.1
 ```
 ## Filtrage
 Monitorer une connexion :
