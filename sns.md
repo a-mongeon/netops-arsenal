@@ -35,7 +35,7 @@ route -n get 192.168.1.1
 ## Filtrage
 Monitorer une connexion :
 ```
-sfctl -s conn -nv -T -H host=188.231.45.9 -H port=4500
+sfctl -s conn -nv -T -H host=1.1.1.1 -H port=4500
 ```
 Lister le contenu de la blacklist :
 ```
