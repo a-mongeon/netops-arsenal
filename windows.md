@@ -8,7 +8,7 @@ Récupérer un attribut d'un objet AD :
 ## Divers
 ### Gérer les métriques des interfaces
 #### Lister les métriques des interfaces :
-```bash
+```batch
 netsh int ip show interface
 ```
 #### Modifier métrique interface :
