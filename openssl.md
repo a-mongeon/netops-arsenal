@@ -49,11 +49,11 @@ openssl rsa -noout -modulus -in server.key | openssl md5
 ```
 Comparer ensuite les hashs MD5.
 
-## Récupérer le numéro de série d'un certificat :
+### Récupérer le numéro de série d'un certificat :
 ```
 openssl x509 -in CERTIFICATE_FILE -serial -noout
 ```
-## Récupérer le numéro de série d'un lot de certificat (sur Windows) :
+### Récupérer le numéro de série d'un lot de certificat (sur Windows) :
 
 ```powershell
 Get-ChildItem –Path ".\*.pem" | Foreach-Object { 
