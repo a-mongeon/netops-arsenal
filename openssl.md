@@ -45,12 +45,17 @@ openssl crl -inform DER -text -noout -in mycrl.crl
 openssl pkcs12 -info -in INFILE.p12 -nodes
 ```
 ### Pour extraire la clé PRIVEE au format BASE64 :
+```
 openssl pkcs12 -in INFILE.p12 -out OUTFILE.key -nodes -nocerts
+```
 ### Pour extraire la clé publique, concaténée avec la chaine de certification, au format BASE64 :
+```
 openssl pkcs12 -in INFILE.p12 -out OUTFILE.crt -nokeys
+```
 ### Pour extraire la clé publique, sans la chaîne de certification : 
+```
 openssl pkcs12 -in INFILE.p12 -out OUTFILE.crt -nokeys -clcerts
-
+```
 
 ### Vérifier la cohérence entre une clé privée, un demande de signature et un certificat :
 Vérifier une demande de signature :
