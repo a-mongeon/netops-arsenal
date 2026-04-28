@@ -84,12 +84,3 @@ Write-Host "$($_.Name) :"
 openssl x509 -in $_.FullName -serial -noout 
 }
 ```
-### Tester une CRL sur Windows :
-```
-certutil -url http://cdp.arquus-defense.fr/prod.ca.revoke.arquus-defense.crl
-```
-*Cliquer sur "Extraire" :*
-<img width="520" height="339" alt="image" src="https://github.com/user-attachments/assets/310aedcf-fa9d-4452-ba35-6edaeacdc601" />
-
-
-
