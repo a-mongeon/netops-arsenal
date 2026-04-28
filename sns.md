@@ -10,7 +10,7 @@ Pour débugger un tunnel VPN IPSEC :
 ```
 swanctl -T
 ```
-Forcer le daemon charon to recharger la conf :
+Forcer le daemon *charon* de recharger la configuration :
 ```
 swanctl --reload-settings
 ```
