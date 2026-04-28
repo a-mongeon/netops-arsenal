@@ -2,6 +2,7 @@
 Commandes diverses pour du debug réseau (et un peu système)
 
 ## Stormshield Network Security
+* ![Commandes relatives à la gestion/debug du VPN IPsec](/image/Markdown-mark.svg "This is a sample image.")
 
 ### VPN IPsec
 
