@@ -6,6 +6,10 @@ Récupérer un attribut d'un objet AD :
 (Get-LocalUser -name <name>).SID.Value
 ```
 ## Divers
+###  Calculer la somme de contrôle d'un fichier
+```
+certutil.exe -hashfile filename.iso SHA256
+```
 ### Gérer les métriques des interfaces
 #### Lister les métriques des interfaces :
 ```
