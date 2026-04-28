@@ -84,6 +84,7 @@ openssl x509 -in $_.FullName -serial -noout
 certutil -url http://cdp.arquus-defense.fr/prod.ca.revoke.arquus-defense.crl
 ```
 *Cliquer sur "Extraire" :*
-<img width="694" height="70" alt="image" src="https://github.com/user-attachments/assets/3dd5e3f8-4b97-4706-b56d-c806e6810270" />
+<img width="520" height="339" alt="image" src="https://github.com/user-attachments/assets/310aedcf-fa9d-4452-ba35-6edaeacdc601" />
+
 
 
