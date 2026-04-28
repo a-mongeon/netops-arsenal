@@ -18,7 +18,7 @@ Voir les tunnels montés ou qui essayent de se monter :
 ```
 showSAD
 ```
-Voir sir le daemon charon est lancé :
+Vérifier si le daemon *charon* est lancé :
 ```
 dstat charon
 ```
