@@ -6,7 +6,7 @@ Commandes diverses pour du debug réseau (et un peu système)
 ### Faire des requêtes HTTP avec un serveur web :
 
 
-```
+```bash
 openssl s_client -connect website.example:443 -host <hostname.com>
 ```
 *Une fois la connexion TLS établie :* 
