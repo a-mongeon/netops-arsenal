@@ -1,6 +1,6 @@
 # Linux
 
-### Tester/Ouvrir un port vers un serveur distant
+### Tester/ouvrir un port vers un serveur distant
 #### Avec cat et les sockets :
 ```shell
 cat < /dev/tcp/127.0.0.1/22
