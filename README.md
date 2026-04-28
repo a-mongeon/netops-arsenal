@@ -7,5 +7,12 @@ Commandes diverses pour du debug réseau (et un peu système)
 
 
 ```
-openssl s_client -connect website.example:443 -host <hostname.com><img width="547" height="17" alt="image" src="https://github.com/user-attachments/assets/50bb221d-6d0d-4bc6-b0ce-94c6f8448b87" />
+openssl s_client -connect website.example:443 -host <hostname.com>
+```
+*Une fois la connexion TLS établie :* 
+
+```
+GET / HTTP/1.1 <Entrée>
+Host: <hostname.com> <Entrée>
+<Entrée>
 ```
