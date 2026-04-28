@@ -36,7 +36,7 @@ Récupérer un attribut d'un objet AD :
 ```
 ### Tester une CRL sur Windows :
 ```
-certutil -url http://cdp.arquus-defense.fr/prod.ca.revoke.arquus-defense.crl
+certutil -url http://www.cert.fnmt.es/crls/ARLFNMTRCM.crl
 ```
 *Cliquer sur "Extraire" :*
 <img width="520" height="339" alt="image" src="https://github.com/user-attachments/assets/310aedcf-fa9d-4452-ba35-6edaeacdc601" />
