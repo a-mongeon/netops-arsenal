@@ -13,7 +13,7 @@ netsh int ip set interface interface="LAN CONNECTION NAME" metric=15
 
 Récupérer un attribut d'un objet AD :
 ```powershell
-(Get-LocalUser -name a422350t).SID.Value
+(Get-LocalUser -name <name>).SID.Value
 ```
 ## Filtrer de manière avancée le journal Windows :
 ```xml
