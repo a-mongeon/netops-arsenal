@@ -22,28 +22,28 @@ Host: <hostname.com> <Entrée>
 <img width="954" height="710" alt="image" src="https://github.com/user-attachments/assets/d6537af4-d505-456e-8198-eb694abf6876" />
 
 ## Gestion de certificats
-Afficher les informations d'un certificat :
+* Afficher les informations d'un certificat :
 ```
 openssl x509 -text -noout -in cert.pem
 ```
-Vérifier une demande de signature :
+* Vérifier une demande de signature :
 ```
 openssl req -text -noout -verify -in <file>.csr
 ```
-Vérifier qu'un certificat est bien signé par une autorité de certification :
+* Vérifier qu'un certificat est bien signé par une autorité de certification :
 ```
 openssl verify -verbose -CAfile cacert.pem  server.crt
 ```
-Vérifier la cohérence entre une clé privée, un demande de signature et un certificat :
-* Vérifier un .csr :
+* Vérifier la cohérence entre une clé privée, un demande de signature et un certificat :
+  * Vérifier un .csr :
 ```
 openssl req -noout -modulus -in mycsr.csr | openssl md5
 ```
-* Vérifier un .crt:
+  * Vérifier un .crt:
 ```
 openssl x509 -noout -modulus -in mycert.crt | openssl md5
 ```
-* Vérifier un .key:
+  * Vérifier un .key:
 ```
-openssl rsa -noout -modulus -in server.key | openssl md5<img width="535" height="132" alt="image" src="https://github.com/user-attachments/assets/f20b4297-62cb-4871-9dee-b96ee3438b08" />
+openssl rsa -noout -modulus -in server.key | openssl md5
 ```
