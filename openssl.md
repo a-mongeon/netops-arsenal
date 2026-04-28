@@ -1,4 +1,4 @@
-# OpenSSL
+<img width="538" height="18" alt="image" src="https://github.com/user-attachments/assets/bc37e069-9652-48c0-9eef-fc49ec58561c" /># OpenSSL
 
 ## TLS
 ### Afficher les SAN avec OpenSSL d'un serveur :
@@ -28,5 +28,22 @@ openssl x509 -text -noout -in cert.pem
 ```
 Vérifier une demande de signature :
 ```
-openssl.exe req -text -noout -verify -in <file>.csr
+openssl req -text -noout -verify -in <file>.csr
+```
+Vérifier qu'un certificat est bien signé par une autorité de certification :
+```
+openssl verify -verbose -CAfile cacert.pem  server.crt
+```
+Vérifier la cohérence entre une clé privée, un demande de signature et un certificat :
+* Vérifier un .csr :
+```
+openssl req -noout -modulus -in mycsr.csr | openssl md5
+```
+* Vérifier un .crt:
+```
+openssl x509 -noout -modulus -in mycert.crt | openssl md5
+```
+* Vérifier un .key:
+```
+openssl rsa -noout -modulus -in server.key | openssl md5<img width="535" height="132" alt="image" src="https://github.com/user-attachments/assets/f20b4297-62cb-4871-9dee-b96ee3438b08" />
 ```
