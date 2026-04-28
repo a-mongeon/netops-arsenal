@@ -58,4 +58,6 @@ CONFIG COMMUNICATION SYSLOG PROFILE UPDATE index=0 BindAddr=Firewall_RRA-EXT
 
 
 Pour une résolution d'un nom de domaine :
+```
 objectsync -4 -t google.com
+```
