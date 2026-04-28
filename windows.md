@@ -1,21 +1,21 @@
 # Windows 
 
 ## Active Directory
-
-Lister les métriques des interfaces :
-```bash
-netsh int ip show interface
-```
-Modifier métrique interface :
-```bash
-netsh int ip set interface interface="LAN CONNECTION NAME" metric=15
-```
-
 Récupérer un attribut d'un objet AD :
 ```powershell
 (Get-LocalUser -name <name>).SID.Value
 ```
 ## Divers
+### Gérer les métriques des interfaces
+#### Lister les métriques des interfaces :
+```bash
+netsh int ip show interface
+```
+#### Modifier métrique interface :
+```bash
+netsh int ip set interface interface="LAN CONNECTION NAME" metric=15
+```
+
 ### Filtrer de manière avancée le journal Windows :
 ```xml
 <QueryList>
