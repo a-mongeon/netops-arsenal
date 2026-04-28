@@ -5,29 +5,6 @@ Commandes diverses pour du debug réseau (et un peu système)
 * [Commandes relatives à la gestion/debug du VPN IPsec](https://github.com/a-mongeon/netops-arsenal/blob/main/README.md#vpn-ipsec).
 * [Commandes relatives à la gestion/debug du filtrage](https://github.com/a-mongeon/netops-arsenal/blob/main/README.md#filtrage).
 
-### VPN IPsec
-
-Pour réactiver toutes les politiques VPN IPSEC :
-```
-envpn -u
-```
-Pour débugger un tunnel VPN IPSEC :
-```
-swanctl -T
-```
-Forcer le daemon charon to recharger la conf :
-```
-swanctl --reload-settings
-```
-Voir les tunnels montés ou qui essayent de se monter :
-```
-showSAD
-```
-Voir sir le daemon charon est lancé :
-```
-dstat charon
-```
-
 ### Filtrage
 Monitorer une connexion :
 ```
