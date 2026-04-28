@@ -1,17 +1,17 @@
 # Linux
 
-## Ouvrir un port vers un serveur distant
+### Ouvrir un port vers un serveur distant
 
 ```shell
 cat < /dev/tcp/127.0.0.1/22
 ```
 <img width="469" height="43" alt="image" src="https://github.com/user-attachments/assets/f6e5f9f5-545b-4cc6-9eb3-3c7bf6cc70b6" />
 
-Tester une communication Syslog :
+### Tester une communication Syslog :
 ```shell
 echo "<14>Test TCP syslog message" >> /dev/tcp/<target_hostname_or_ip_address>/514
 ```
-## Tester si un port est ouvert :
+### Tester si un port est ouvert :
 ```shell
 curl -vv telnet://<ip>:<port>
 ```
