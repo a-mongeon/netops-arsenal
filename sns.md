@@ -22,6 +22,12 @@ Voir sir le daemon charon est lancé :
 ```
 dstat charon
 ```
+
+## Réseau
+Afficher les routes  :
+```
+netstat -rn
+```
 ## Filtrage
 Monitorer une connexion :
 ```
@@ -31,10 +37,7 @@ Lister le contenu de la blacklist :
 ```
 sfctl -s addrlist
 ```
-Forcer la récupération d'une CRL :
-```
-checkcrl -d -t 10
-```
+
 ## Divers
 Voir la charge du firewall :
 ```
@@ -47,9 +50,9 @@ sfctl -s proaddr
 ```
 sfctl -s protaddr
 ```
-Afficher les routes  :
+Forcer la récupération d'une CRL :
 ```
-netstat -rn
+checkcrl -d -t 10
 ```
 Forcer une interface en particulier pour le Syslog (depuis le CLI):
 ```
