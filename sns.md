@@ -51,6 +51,7 @@ Voir la charge du firewall :
 ```
 sfctl -s proaddr
 ```
+Vérifier les adresses protégées :
 ```
 sfctl -s protaddr
 ```
@@ -58,7 +59,7 @@ Forcer la récupération d'une CRL :
 ```
 checkcrl -d -t 10
 ```
-Forcer une interface en particulier pour le Syslog (depuis le CLI):
+Forcer une interface en particulier pour le Syslog (depuis Serverd):
 ```
 CONFIG COMMUNICATION SYSLOG PROFILE UPDATE index=0 BindAddr=Firewall_in
 ```
