@@ -1,6 +1,6 @@
 # Linux
 
-### Tester/Ouvrir un port vers un serveur distant :
+### Tester/Ouvrir un port vers un serveur distant
 #### Avec cat et les sockets :
 ```shell
 cat < /dev/tcp/127.0.0.1/22
@@ -11,7 +11,7 @@ cat < /dev/tcp/127.0.0.1/22
 ```shell
 curl -vv telnet://<ip>:<port>
 ```
-### Tester une communication Syslog :
+### Tester une communication Syslog
 ```shell
 echo "<14>Test TCP syslog message" >> /dev/tcp/<target_hostname_or_ip_address>/514
 ```
