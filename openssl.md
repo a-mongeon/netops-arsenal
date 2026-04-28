@@ -22,6 +22,8 @@ Host: <hostname.com> <Entrée>
 <img width="954" height="710" alt="image" src="https://github.com/user-attachments/assets/d6537af4-d505-456e-8198-eb694abf6876" />
 
 ## Gestion de certificats
+### Pour *parser* des certificats :
+https://horizon-demo.evertrust.fr/ui#/ra/crypto-decoder
 ### Afficher les informations d'un certificat :
 ```
 openssl x509 -text -noout -in cert.pem
@@ -34,6 +36,22 @@ openssl req -text -noout -verify -in <file>.csr
 ```
 openssl verify -verbose -CAfile cacert.pem  server.crt
 ```
+### Lire une CRL :
+```
+openssl crl -inform DER -text -noout -in mycrl.crl
+```
+### Extraire des éléments d'un .p12 :
+```
+openssl pkcs12 -info -in INFILE.p12 -nodes
+```
+### Pour extraire la clé PRIVEE au format BASE64 :
+openssl pkcs12 -in INFILE.p12 -out OUTFILE.key -nodes -nocerts
+### Pour extraire la clé publique, concaténée avec la chaine de certification, au format BASE64 :
+openssl pkcs12 -in INFILE.p12 -out OUTFILE.crt -nokeys
+### Pour extraire la clé publique, sans la chaîne de certification : 
+openssl pkcs12 -in INFILE.p12 -out OUTFILE.crt -nokeys -clcerts
+
+
 ### Vérifier la cohérence entre une clé privée, un demande de signature et un certificat :
 Vérifier une demande de signature :
 ```
@@ -61,4 +79,11 @@ Write-Host "$($_.Name) :"
 openssl x509 -in $_.FullName -serial -noout 
 }
 ```
+### Tester une CRL sur Windows :
+```
+certutil -url http://cdp.arquus-defense.fr/prod.ca.revoke.arquus-defense.crl
+```
+*Cliquer sur "Extraire" :*
+<img width="694" height="70" alt="image" src="https://github.com/user-attachments/assets/3dd5e3f8-4b97-4706-b56d-c806e6810270" />
+
 
