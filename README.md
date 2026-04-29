@@ -1,5 +1,5 @@
 # NetOps Arsenal
-Commandes diverses pour du debug réseau.
+Compilation d'outils et de commandes divers pour de l'exploitation réseau et du troubleshooting.
 
 ## Appliances de sécurité
 * [Stormshield Network Security](https://github.com/a-mongeon/netops-arsenal/blob/main/sns.md)
