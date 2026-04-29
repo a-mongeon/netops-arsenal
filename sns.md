@@ -23,6 +23,11 @@ Vérifier si le daemon *charon* est lancé :
 dstat charon
 ```
 
+## Gestion de certificats
+```
+PKI REQUEST CREATE type=server cn=<common_name> C=<country> ST=<state> L=<city> O=<company> OU=<IT> shortname=mycertname keytype=<RSA|SECP|Brainpool> size=<256,384,512,521,1024,2048 ou 4096 bits>
+```
+
 ## Réseau
 ### Afficher les routes  :
 ```
