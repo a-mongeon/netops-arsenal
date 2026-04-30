@@ -16,7 +16,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 ## Divers
 * [OpenSSL](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/openssl.md)
 * [Notepad++](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/notepad-plus-plus.md)
-* [Regex]([https://](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/regex.md)
+* [Regex](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/regex.md)
 
 ## GitHub tools
 * [EventLogExpert \(Windows\)](https://github.com/microsoft/EventLogExpert)
