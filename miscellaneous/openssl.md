@@ -22,8 +22,7 @@ Host: <hostname.com> <Entrée>
 <img width="954" height="710" alt="image" src="https://github.com/user-attachments/assets/d6537af4-d505-456e-8198-eb694abf6876" />
 
 ## Gestion de certificats
-### Pour *parser* des certificats :
-https://horizon-demo.evertrust.fr/ui#/ra/crypto-decoder
+
 ### Afficher les informations d'un certificat :
 ```
 openssl x509 -text -noout -in cert.pem
