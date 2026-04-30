@@ -26,6 +26,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [CHMOD calculator](https://chmod-calculator.com/)
 * [Expressions regulières](https://regex101.com/)
 * [Calculs de masques réseaux](https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/)
+* [Certificates online parser](https://horizon-demo.evertrust.fr/ui#/ra/crypto-decoder)
 
 ## Softwares
 * [XCA](https://www.hohnstaedt.de/xca/)
