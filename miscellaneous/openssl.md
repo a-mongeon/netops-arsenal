@@ -98,14 +98,14 @@ openssl x509 -in $_.FullName -enddate -noout
 }
 ```
 #### Récupérer la date de signature d'un lot de certificats :
-```
+```powershell
 Get-ChildItem -Path ".\*.pem" | Foreach-Object {
 Write-Host "$($_.Name) :"
 openssl x509 -in $_.FullName -startdate -noout
 }
 ```
 #### Récupérer tous les SANs d'un lot de certificats :
-```
+```powershell
 Get-ChildItem -Path ".\*.pem" | Foreach-Object {
 Write-Host "$($_.Name) :"
 openssl x509 -text -noout -in $_.FullName -certopt no_subject,no_header,no_version,no_serial,no_signame,no_validity,no_issuer,no_pubkey,no_sigdump,no_aux | Select-String -Pattern "DNS:"
