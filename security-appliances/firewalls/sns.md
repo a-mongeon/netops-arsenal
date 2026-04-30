@@ -103,7 +103,10 @@ Forcer une interface en particulier pour le Syslog (depuis Serverd):
 ```
 CONFIG COMMUNICATION SYSLOG PROFILE UPDATE index=0 BindAddr=Firewall_in
 ```
-
+Afficher tout ce qui ne contient pas *connection* ou *system* ou *alarm* :
+```
+grep -v -E connection\|system\|alarm
+```
 
 Pour une résolution d'un nom de domaine :
 ```
