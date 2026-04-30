@@ -1,6 +1,5 @@
 # Wallix Bastion
 
-
 ## Réplication SQL
 
 Vérifier l'état de la réplication SQL :
@@ -14,4 +13,11 @@ bastion-replication --status
 Resynchroniser les esclaves avec le maître :
 ```
 bastion-replication --resync
+```
+Stopper/démarrer la réplication SQL :
+```
+bastion-replication --stop
+```
+```
+bastion-replication --start
 ```
