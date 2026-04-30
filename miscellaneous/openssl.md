@@ -89,3 +89,13 @@ Write-Host "$($_.Name) :"
 openssl x509 -in $_.FullName -serial -noout 
 }
 ```
+
+Get-ChildItem -Path ".\*.pem" | Foreach-Object {
+Write-Host "$($_.Name) :"
+openssl x509 -in $_.FullName -enddate -noout
+}
+
+Get-ChildItem -Path ".\*.pem" | Foreach-Object {
+Write-Host "$($_.Name) :"
+openssl x509 -in $_.FullName -startdate -noout
+}
