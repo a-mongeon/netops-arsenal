@@ -1,5 +1,5 @@
 # Wallix Bastion
-
+Quelques commandes utiles sur la solution PAM Wallix Bastion.
 ## Réplication SQL
 
 Vérifier l'état de la réplication SQL :
