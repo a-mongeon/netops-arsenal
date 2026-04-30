@@ -24,10 +24,10 @@ Host: <hostname.com> <Entrée>
 ## Gestion de certificats
 ### Créer une demande de signature de certificat sous EDCSA
 ```
-openssl ecparam -name prime256v1 -genkey -noout -out /etc/pki/tls/private/<distinguished_name>_JJMMAAAA.key
+openssl ecparam -name prime256v1 -genkey -noout -out /etc/pki/tls/private/pk_JJMMAAAA.key
 ```
 ```
-openssl req -new -key /etc/pki/tls/private/<distinguished_name>_JJMMAAAA.key -out /etc/pki/tls/certs/<distinguished_name>_JJMMAAAA.csr
+openssl req -new -key /etc/pki/tls/private/pk_JJMMAAAA.key -out /etc/pki/tls/certs/csr_JJMMAAAA.csr
 ```
 ### Afficher les informations d'un certificat :
 ```
