@@ -10,8 +10,8 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [Cisco IOS](https://github.com/a-mongeon/netops-arsenal/blob/main/cisco_ios.md)
 
 ## Systèmes
-* [Windows](https://github.com/a-mongeon/netops-arsenal/blob/main/windows.md)
-* [Linux](https://github.com/a-mongeon/netops-arsenal/blob/main/linux.md)
+* [Windows](https://github.com/a-mongeon/netops-arsenal/blob/main/system/windows.md)
+* [Linux](https://github.com/a-mongeon/netops-arsenal/blob/main/system/linux.md)
 
 ## Divers
 * [OpenSSL](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/openssl.md)
