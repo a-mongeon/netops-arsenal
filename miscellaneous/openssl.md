@@ -22,7 +22,10 @@ Host: <hostname.com> <Entrée>
 <img width="954" height="710" alt="image" src="https://github.com/user-attachments/assets/d6537af4-d505-456e-8198-eb694abf6876" />
 
 ## Gestion de certificats
-
+### Créer une demande de signature de certificat sous EDCSA
+```
+openssl
+```
 ### Afficher les informations d'un certificat :
 ```
 openssl x509 -text -noout -in cert.pem
