@@ -4,8 +4,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 ## Appliances de sécurité
 * [Stormshield Network Security](https://github.com/a-mongeon/netops-arsenal/blob/main/sns.md)
 * [Ubika WAAP Gateway](https://github.com/a-mongeon/netops-arsenal/blob/main/security-appliances/waf/ubika_waap.md)
-* PAM
-  * [Wallix Bastion](https://github.com/a-mongeon/netops-arsenal/blob/main/pam_wallix_bastion.md)
+* [Wallix Bastion](https://github.com/a-mongeon/netops-arsenal/blob/main/pam_wallix_bastion.md)
   
 ## Réseau
 * [Cisco IOS](https://github.com/a-mongeon/netops-arsenal/blob/main/cisco_ios.md)
