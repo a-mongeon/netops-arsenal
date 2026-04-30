@@ -1,4 +1,4 @@
-<img width="621" height="34" alt="image" src="https://github.com/user-attachments/assets/3d9582cd-afda-4c01-bdb1-80f4d2f79a18" /># Stormshield Network Security
+# Stormshield Network Security
 
 * [VPN IPsec](https://github.com/a-mongeon/netops-arsenal/blob/main/sns.md#vpn-ipsec)
 * [Gestion de certificats](https://github.com/a-mongeon/netops-arsenal/blob/main/sns.md#gestion-de-certificats)
