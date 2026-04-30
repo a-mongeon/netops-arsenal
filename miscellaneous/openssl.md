@@ -25,6 +25,8 @@ Host: <hostname.com> <Entrée>
 ### Créer une demande de signature de certificat sous EDCSA
 ```
 openssl ecparam -name prime256v1 -genkey -noout -out /etc/pki/tls/private/<distinguished_name>_JJMMAAAA.key
+```
+```
 openssl req -new -key /etc/pki/tls/private/<distinguished_name>_JJMMAAAA.key -out /etc/pki/tls/certs/<distinguished_name>_JJMMAAAA.csr
 ```
 ### Afficher les informations d'un certificat :
