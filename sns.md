@@ -36,7 +36,17 @@ Télécharger la demande de signature de certificat :
 ```
 PKI REQUEST GET name=<shortname> format=pem
 ```
+
 ## Réseau
+### Debug avec tcpdump
+Capturer du trafic avec des filtres :
+```
+tcpdump -i vlan0 -n host 192.168.1.1 && port 443
+```
+Capturer du trafic IPsec déchiffré :
+```
+tcpdump -i enc0 -n
+```
 ### Afficher les routes  :
 ```
 netstat -rn
