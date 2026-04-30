@@ -1,11 +1,8 @@
 # Stormshield Network Security
 
-* VPN IPsec
-* Gestion de certificats
-  * Afficher les routes
-  * Obtenir la route pour une adresse IP en particulier
-  * Filtrage
-* Divers
+* [VPN IPsec](https://github.com/a-mongeon/netops-arsenal/blob/main/sns.md#vpn-ipsec)
+* [Gestion de certificats](https://github.com/a-mongeon/netops-arsenal/blob/main/sns.md#gestion-de-certificats)
+* [Divers](https://github.com/a-mongeon/netops-arsenal/blob/main/sns.md#divers)
  
 ## VPN IPsec
 
