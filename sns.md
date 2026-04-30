@@ -47,6 +47,11 @@ Capturer du trafic IPsec déchiffré :
 ```
 tcpdump -i enc0 -n
 ```
+Capturer du trafic IPsec déchiffré sur des VTI :
+```
+tcpdump -i enc1 -n
+```
+
 ### Afficher les routes  :
 ```
 netstat -rn
