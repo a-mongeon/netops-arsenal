@@ -46,6 +46,11 @@ Et en la récupérant directement en ligne :
 ```
 curl http://domain.com/ca.crl | openssl crl -text -noout
 ```
+### Récupérer le numéro de série d'un certificat :
+```
+openssl x509 -in CERTIFICATE_FILE -serial -noout
+```
+
 ### Manipulations du format PKCS#12
 
 #### Extraire des éléments d'un .p12 :
@@ -70,13 +75,13 @@ openssl pkcs12 -in INFILE.p12 -out OUTFILE.crt -nokeys -clcerts
 ```
 openssl req -text -noout -verify -in <file>.csr
 ```
+
 #### Vérifier qu'un certificat est bien signé par une autorité de certification :
 ```
 openssl verify -verbose -CAfile cacert.pem  server.crt
 ```
 
-
-### Vérifier la cohérence entre une clé privée, une demande de signature et un certificat basés sur RSA :
+#### Vérifier la cohérence entre une clé privée, une demande de signature et un certificat basés sur RSA :
 Vérifier une demande de signature :
 ```
 openssl req -noout -modulus -in mycsr.csr | openssl md5
@@ -91,7 +96,7 @@ openssl rsa -noout -modulus -in server.key | openssl md5
 ```
 Comparer ensuite les hashs MD5 du modulus, qui doivent être strictement identiques.
 
-### Vérifier la cohérence entre une clé privée et un certificat basés sur ECDSA :
+#### Vérifier la cohérence entre une clé privée et un certificat basés sur ECDSA :
 Extraire la clé publique de la demande de signature (CSR)
 ```
 openssl req -in demande.csr -pubkey -noout > pub_csr.pem
@@ -110,10 +115,6 @@ diff pub_cert.pem pub_privee.pem pub_csr.pem
 ```
 Si la commande diff ne renvoie aucun résultat, la clé privée correspond bien au certificat et au CSR.
 
-### Récupérer le numéro de série d'un certificat :
-```
-openssl x509 -in CERTIFICATE_FILE -serial -noout
-```
 ### Pour aller plus loin avec Powershell
 #### Récupérer le numéro de série d'un lot de certificats :
 
