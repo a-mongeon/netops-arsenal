@@ -22,7 +22,7 @@ Host: <hostname.com> <Entrée>
 <img width="954" height="710" alt="image" src="https://github.com/user-attachments/assets/d6537af4-d505-456e-8198-eb694abf6876" />
 
 ## Gestion de certificats
-### Créer une demande de signature de certificat sous EDCSA
+### Créer une clé privée et une demande de signature de certificat sous EDCSA
 ```
 openssl ecparam -name prime256v1 -genkey -noout -out /etc/pki/tls/private/pk_JJMMAAAA.key
 ```
@@ -49,11 +49,11 @@ openssl crl -inform DER -text -noout -in mycrl.crl
 ```
 openssl pkcs12 -info -in INFILE.p12 -nodes
 ```
-### Pour extraire la clé PRIVEE au format BASE64 :
+### Pour extraire la clé privée au format PEM :
 ```
 openssl pkcs12 -in INFILE.p12 -out OUTFILE.key -nodes -nocerts
 ```
-### Pour extraire la clé publique, concaténée avec la chaine de certification, au format BASE64 :
+### Pour extraire la clé publique, concaténée avec la chaine de certification, au format PEM :
 ```
 openssl pkcs12 -in INFILE.p12 -out OUTFILE.crt -nokeys
 ```
