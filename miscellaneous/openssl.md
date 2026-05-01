@@ -75,7 +75,7 @@ Vérifier une clée privée :
 ```
 openssl rsa -noout -modulus -in server.key | openssl md5
 ```
-Comparer ensuite les hashs MD5.
+Comparer ensuite les hashs MD5 du modulus, qui doit être strictement identique.
 
 ### Récupérer le numéro de série d'un certificat :
 ```
