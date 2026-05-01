@@ -38,14 +38,6 @@ openssl req -new -key /etc/pki/tls/private/pk_JJMMAAAA.key -out /etc/pki/tls/cer
 ```
 openssl x509 -text -noout -in cert.pem
 ```
-### Vérifier une demande de signature :
-```
-openssl req -text -noout -verify -in <file>.csr
-```
-### Vérifier qu'un certificat est bien signé par une autorité de certification :
-```
-openssl verify -verbose -CAfile cacert.pem  server.crt
-```
 ### Lire une CRL :
 ```
 openssl crl -inform DER -text -noout -in mycrl.crl
@@ -54,22 +46,35 @@ Et en la récupérant directement en ligne :
 ```
 curl http://domain.com/ca.crl | openssl crl -text -noout
 ```
-### Extraire des éléments d'un .p12 :
+### Manipulations du format PKCS#12
+
+#### Extraire des éléments d'un .p12 :
 ```
 openssl pkcs12 -info -in INFILE.p12 -nodes
 ```
-### Pour extraire la clé privée au format PEM :
+#### Pour extraire la clé privée au format PEM :
 ```
 openssl pkcs12 -in INFILE.p12 -out OUTFILE.key -nodes -nocerts
 ```
-### Pour extraire la clé publique, concaténée avec la chaine de certification, au format PEM :
+#### Pour extraire la clé publique, concaténée avec la chaine de certification, au format PEM :
 ```
 openssl pkcs12 -in INFILE.p12 -out OUTFILE.crt -nokeys
 ```
-### Pour extraire la clé publique, sans la chaîne de certification : 
+#### Pour extraire la clé publique, sans la chaîne de certification : 
 ```
 openssl pkcs12 -in INFILE.p12 -out OUTFILE.crt -nokeys -clcerts
 ```
+### Vérifications de cohérence
+
+#### Vérifier une demande de signature :
+```
+openssl req -text -noout -verify -in <file>.csr
+```
+#### Vérifier qu'un certificat est bien signé par une autorité de certification :
+```
+openssl verify -verbose -CAfile cacert.pem  server.crt
+```
+
 
 ### Vérifier la cohérence entre une clé privée, une demande de signature et un certificat basés sur RSA :
 Vérifier une demande de signature :
