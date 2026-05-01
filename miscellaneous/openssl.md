@@ -1,5 +1,10 @@
 # OpenSSL
 Quelques commandes utiles à utiliser avec OpenSSL pour débugger du TLS ou gérer du certificat.
+
+* [TLS]()
+* Gestion de certificats
+* Pour aller plus loin avec PowerShell
+
 ## TLS
 ### Afficher les SAN avec OpenSSL d'un serveur :
 ```bash
