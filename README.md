@@ -18,6 +18,9 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [Notepad++](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/notepad-plus-plus.md)
 * [Regex](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/regex.md)
 
+## Pentest
+* [Kyubi - Nginx alias traversal misconfiguration tool](https://github.com/shiblisec/Kyubi)
+
 ## GitHub tools
 * [EventLogExpert \(Windows\)](https://github.com/microsoft/EventLogExpert)
 * [pkcs11-tools](https://github.com/Mastercard/pkcs11-tools)
