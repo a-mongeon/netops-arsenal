@@ -50,6 +50,10 @@ openssl verify -verbose -CAfile cacert.pem  server.crt
 ```
 openssl crl -inform DER -text -noout -in mycrl.crl
 ```
+Et en la récupérant directement en ligne :
+```
+curl http://domain.com/ca.crl | openssl crl -text -noout
+```
 ### Extraire des éléments d'un .p12 :
 ```
 openssl pkcs12 -info -in INFILE.p12 -nodes
