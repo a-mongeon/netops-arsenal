@@ -2,7 +2,7 @@
 Quelques commandes utiles à utiliser avec OpenSSL pour débugger du TLS ou gérer du certificat.
 
 * [TLS]()
-* Gestion de certificats
+* [Gestion de certificats](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/openssl.md#gestion-de-certificats)
 * Pour aller plus loin avec PowerShell
 
 ## TLS
