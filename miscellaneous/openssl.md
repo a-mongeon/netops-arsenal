@@ -78,6 +78,10 @@ openssl rsa -noout -modulus -in server.key | openssl md5
 Comparer ensuite les hashs MD5 du modulus, qui doit être strictement identique.
 
 ### Vérifier la cohérence entre une clé privée et un certificat basés sur ECDSA :
+Extraire la clé publique de la demande de signature (CSR)
+```
+openssl req -in demande.csr -pubkey -noout > pub_csr.pem
+```
 Extraire la clé publique du certificat
 ```
 openssl x509 -in certificat.pem -pubkey -noout > pub_cert.pem
@@ -88,7 +92,7 @@ openssl ec -in cle_privee.pem -pubout > pub_privee.pem
 ```
 Comparer les deux fichiers (doit retourner aucune différence)
 ```
-diff pub_cert.pem pub_privee.pem
+diff pub_cert.pem pub_privee.pem pub_csr.pem
 ```
 
 ### Récupérer le numéro de série d'un certificat :
