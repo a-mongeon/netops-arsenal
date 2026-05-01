@@ -62,7 +62,7 @@ openssl pkcs12 -in INFILE.p12 -out OUTFILE.crt -nokeys
 openssl pkcs12 -in INFILE.p12 -out OUTFILE.crt -nokeys -clcerts
 ```
 
-### Vérifier la cohérence entre une clé privée, un demande de signature et un certificat :
+### Vérifier la cohérence entre une clé privée, une demande de signature et un certificat basés sur RSA :
 Vérifier une demande de signature :
 ```
 openssl req -noout -modulus -in mycsr.csr | openssl md5
@@ -76,6 +76,20 @@ Vérifier une clée privée :
 openssl rsa -noout -modulus -in server.key | openssl md5
 ```
 Comparer ensuite les hashs MD5 du modulus, qui doit être strictement identique.
+
+### Vérifier la cohérence entre une clé privée et un certificat basés sur ECDSA :
+Extraire la clé publique du certificat
+```
+openssl x509 -in certificat.pem -pubkey -noout > pub_cert.pem
+```
+Dériver la clé publique depuis la clé privée
+```
+openssl ec -in cle_privee.pem -pubout > pub_privee.pem
+```
+Comparer les deux fichiers (doit retourner aucune différence)
+```
+diff pub_cert.pem pub_privee.pem
+```
 
 ### Récupérer le numéro de série d'un certificat :
 ```
