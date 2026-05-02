@@ -19,11 +19,12 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [Regex](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/regex.md)
 
 ## GitHub tools
-* [EventLogExpert \(Windows\)](https://github.com/microsoft/EventLogExpert)
+### Certificats
 * [pkcs11-tools](https://github.com/Mastercard/pkcs11-tools)
 * [PowerShell tool for mananing X509 certificats on Windows](https://github.com/qqt-lo4/Certificate_Management)
+### Forensic/Monitoring
+* [EventLogExpert \(Windows\)](https://github.com/microsoft/EventLogExpert)
 * [Sniffnet \(Monitoring du trafic réseau\)](https://github.com/GyulyVGC/sniffnet)
-
 ### Pentest
 * [Kyubi \(Nginx alias traversal misconfiguration tool\)](https://github.com/shiblisec/Kyubi)
 
