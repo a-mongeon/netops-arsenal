@@ -20,7 +20,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 
 ## GitHub tools
 ### Certificats
-* [pkcs11-tools](https://github.com/Mastercard/pkcs11-tools)
+* [pkcs11-tools \(A set of tools to manage objects on PKCS#11 cryptographic tokens\)](https://github.com/Mastercard/pkcs11-tools)
 * [PowerShell tool for mananing X509 certificats on Windows](https://github.com/qqt-lo4/Certificate_Management)
 ### Forensic/Monitoring
 * [EventLogExpert \(Windows\)](https://github.com/microsoft/EventLogExpert)
