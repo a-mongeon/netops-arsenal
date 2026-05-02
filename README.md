@@ -25,7 +25,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [Sniffnet \(Monitoring du trafic réseau\)](https://github.com/GyulyVGC/sniffnet)
 
 ### Pentest
-* [Kyubi Nginx alias traversal misconfiguration tool](https://github.com/shiblisec/Kyubi)
+* [Kyubi \(Nginx alias traversal misconfiguration tool\)](https://github.com/shiblisec/Kyubi)
 
 ## Online tools
 * [Rechercher l'historique d'un certificat d'un domaine](https://crt.sh/)
