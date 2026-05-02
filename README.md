@@ -18,12 +18,14 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [Notepad++](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/notepad-plus-plus.md)
 * [Regex](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/regex.md)
 
-## Pentest
-* [Kyubi - Nginx alias traversal misconfiguration tool](https://github.com/shiblisec/Kyubi)
-
 ## GitHub tools
 * [EventLogExpert \(Windows\)](https://github.com/microsoft/EventLogExpert)
 * [pkcs11-tools](https://github.com/Mastercard/pkcs11-tools)
+* [PowerShell tool for mananing X509 certificats on Windows](https://github.com/qqt-lo4/Certificate_Management)
+* [Sniffnet \(Monitoring du trafic réseau\)]
+
+### Pentest
+* [Kyubi Nginx alias traversal misconfiguration tool](https://github.com/shiblisec/Kyubi)
 
 ## Online tools
 * [Rechercher l'historique d'un certificat d'un domaine](https://crt.sh/)
