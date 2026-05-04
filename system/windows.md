@@ -47,4 +47,5 @@ certutil -url http://www.cert.fnmt.es/crls/ARLFNMTRCM.crl
 
 ### Déchiffrer du trafic TLS
 
-TODO
+<img width="620" height="293" alt="image" src="https://github.com/user-attachments/assets/7a0fba7a-5978-48b0-a0ec-acaeeba712ab" />
+
