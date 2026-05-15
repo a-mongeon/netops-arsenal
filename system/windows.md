@@ -10,6 +10,10 @@ Récupérer un attribut d'un objet AD :
 ```
 certutil.exe -hashfile filename.iso SHA256
 ```
+Et comparer :
+```
+type filename.iso.sha256
+```
 ### Gérer les métriques des interfaces
 #### Lister les métriques des interfaces :
 ```
