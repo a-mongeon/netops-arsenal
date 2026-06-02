@@ -6,20 +6,20 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [Ubika WAAP Gateway](https://github.com/a-mongeon/netops-arsenal/blob/main/security-appliances/waf/ubika_waap.md)
 * [Wallix Bastion](https://github.com/a-mongeon/netops-arsenal/blob/main/security-appliances/pam/pam_wallix_bastion.md)
   
-## Réseau
+## Network
 * [Cisco IOS](https://github.com/a-mongeon/netops-arsenal/blob/main/cisco_ios.md)
 
-## Systèmes
+## System
 * [Windows](https://github.com/a-mongeon/netops-arsenal/blob/main/system/windows.md)
 * [Linux](https://github.com/a-mongeon/netops-arsenal/blob/main/system/linux.md)
 
-## Divers
+## Miscellaneous
 * [OpenSSL](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/openssl.md)
 * [Notepad++](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/notepad-plus-plus.md)
 * [Regex](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/regex.md)
 
 ## Tools
-### Certificats
+### Certificates
 * [pkcs11-tools \(A set of tools to manage objects on PKCS#11 cryptographic tokens\)](https://github.com/Mastercard/pkcs11-tools)
 * [PowerShell tool for mananing X509 certificats on Windows](https://github.com/qqt-lo4/Certificate_Management)
 * [SoftHSM](https://github.com/softhsm/SoftHSMv2)
@@ -28,7 +28,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [EventLogExpert \(Windows\)](https://github.com/microsoft/EventLogExpert)
 * [Sniffnet \(Monitoring du trafic réseau\)](https://github.com/GyulyVGC/sniffnet)
 
-### Plugin Notepad++
+### Notepad++ plugins
 * [comparePlus](https://github.com/pnedev/comparePlus)
 
 ### Pentest
