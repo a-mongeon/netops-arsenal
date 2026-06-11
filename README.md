@@ -44,3 +44,6 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 ## Softwares
 * [XCA](https://www.hohnstaedt.de/xca/)
 * [SoftHSM](https://github.com/softhsm/SoftHSMv2)
+
+## Browser extensions
+* [SAML-Tracer \(Pour décoder des assertions SAML en temps réel\)](https://addons.mozilla.org/fr/firefox/addon/saml-tracer/)
