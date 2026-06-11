@@ -14,6 +14,14 @@ Et comparer :
 ```
 type filename.iso.sha256
 ```
+### Décoder un fichier encodé en base64
+```
+certutil -decode InFile OutFile
+```
+### Décoder un fichier encodé en hexadécimal
+```
+certutil -decodehex InFile OutFile
+```
 ### Gérer les métriques des interfaces
 #### Lister les métriques des interfaces :
 ```
