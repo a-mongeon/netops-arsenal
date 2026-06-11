@@ -58,6 +58,6 @@ certutil -url http://www.cert.fnmt.es/crls/ARLFNMTRCM.crl
 <img width="520" height="339" alt="image" src="https://github.com/user-attachments/assets/310aedcf-fa9d-4452-ba35-6edaeacdc601" />
 
 ### Déchiffrer du trafic TLS
-
+Pour déchiffrer du traffic TLS, il est nécessaire de créer une variable exportant la clé privée du navigateur, ce qui permet ensuite de déchiffrer le traffic avec WireShark par exemple :
 <img width="620" height="291" alt="image" src="https://github.com/user-attachments/assets/95ade978-15e9-4dd5-9c78-51062b544723" />
 
