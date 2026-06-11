@@ -34,6 +34,9 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 ### Pentest
 * [Kyubi \(Nginx alias traversal misconfiguration tool\)](https://github.com/shiblisec/Kyubi)
 
+### Browser extensions
+* [SAML-Tracer \(Pour décoder des assertions SAML en temps réel\)](https://addons.mozilla.org/fr/firefox/addon/saml-tracer/)
+
 ## Online tools
 * [Rechercher l'historique d'un certificat d'un domaine](https://crt.sh/)
 * [CHMOD calculator](https://chmod-calculator.com/)
@@ -44,6 +47,3 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 ## Softwares
 * [XCA](https://www.hohnstaedt.de/xca/)
 * [SoftHSM](https://github.com/softhsm/SoftHSMv2)
-
-## Browser extensions
-* [SAML-Tracer \(Pour décoder des assertions SAML en temps réel\)](https://addons.mozilla.org/fr/firefox/addon/saml-tracer/)
