@@ -13,6 +13,9 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [Windows](https://github.com/a-mongeon/netops-arsenal/blob/main/system/windows.md)
 * [Linux](https://github.com/a-mongeon/netops-arsenal/blob/main/system/linux.md)
 
+## Cloud
+* [Manage S3](https://github.com/a-mongeon/netops-arsenal/blob/main/cloud/s3.md)
+
 ## Miscellaneous
 * [OpenSSL](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/openssl.md)
 * [Notepad++](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/notepad-plus-plus.md)
