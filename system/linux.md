@@ -1,5 +1,10 @@
 # Linux
 
+## Commandes diverses utiles
+### Lister les ports en écoute (TCP only)
+```shell
+ss -lt
+```
 ### Tester/ouvrir un port vers un serveur distant
 #### Avec cat et les sockets :
 ```shell
