@@ -40,6 +40,10 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 ### Browser extensions
 * [SAML-Tracer \(Pour décoder des assertions SAML en temps réel\)](https://addons.mozilla.org/fr/firefox/addon/saml-tracer/)
 
+### Web
+* Burp
+* Postman
+
 ## Online tools
 * [Rechercher l'historique d'un certificat d'un domaine](https://crt.sh/)
 * [CHMOD calculator](https://chmod-calculator.com/)
