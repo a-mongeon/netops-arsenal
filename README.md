@@ -54,3 +54,6 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 ## Softwares
 * [XCA](https://www.hohnstaedt.de/xca/)
 * [SoftHSM](https://github.com/softhsm/SoftHSMv2)
+
+## Ressources diverses
+* Politique de partage et d’utilisation des informations à caractère opérationnel - Traffic Light Protocol (TLP) https://www.cert.ssi.gouv.fr/csirt/politique-partage/ / https://www.first.org/tlp/
