@@ -27,11 +27,9 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [PowerShell tool for mananing X509 certificats on Windows](https://github.com/qqt-lo4/Certificate_Management)
 * [SoftHSM](https://github.com/softhsm/SoftHSMv2)
 
-### Forensic/Monitoring
+### Forensic/Monitoring/Debugging
 * [EventLogExpert \(Windows\)](https://github.com/microsoft/EventLogExpert)
 * [Sniffnet \(Monitoring du trafic réseau\)](https://github.com/GyulyVGC/sniffnet)
-
-### Debugging
 * [PsTools](https://learn.microsoft.com/fr-fr/sysinternals/downloads/pstools)
 
 ### Notepad++ plugins
