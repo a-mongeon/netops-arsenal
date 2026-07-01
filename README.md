@@ -31,6 +31,9 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [EventLogExpert \(Windows\)](https://github.com/microsoft/EventLogExpert)
 * [Sniffnet \(Monitoring du trafic réseau\)](https://github.com/GyulyVGC/sniffnet)
 
+### Debugging
+* [PsTools](https://learn.microsoft.com/fr-fr/sysinternals/downloads/pstools)
+
 ### Notepad++ plugins
 * [comparePlus](https://github.com/pnedev/comparePlus)
 
