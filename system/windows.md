@@ -6,7 +6,12 @@ Récupérer un attribut d'un objet AD :
 (Get-LocalUser -name <name>).SID.Value
 ```
 ## Divers
-###  Calculer la somme de contrôle d'un fichier
+### Exécuter un programme en tant que SYSTEM
+Avec l'outil PsExec disponible dans les [PsTools](https://learn.microsoft.com/fr-fr/sysinternals/downloads/pstools), il est possible d'exécuter un processus en tant que SYSTEM :
+```
+psexec -i -s cmd.exe
+```
+### Calculer la somme de contrôle d'un fichier
 ```
 certutil.exe -hashfile filename.iso SHA256
 ```
