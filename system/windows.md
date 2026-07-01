@@ -32,11 +32,13 @@ netsh int ip show interface
 netsh int ip set interface interface="LAN CONNECTION NAME" metric=15
 ```
 ### Installer un package depuis PowerShell en tant qu'administrateur :
+Pour installer un package en tant qu'administrateur et éviter des blocages éventuels sur des serveurs durcis, il est possible de passer par PowerShell :
 ```powershell
 $pkg = ".\EverTrust WinHorizon.2.1.0.msi"
 Start-Process msiexec -ArgumentList "/i `"$pkg`""
 ```
 ### Filtrer de manière avancée le journal Windows :
+Il n'est pas possible de filtrer par défaut des évènements du journal Windows sur certains critères, comme celui de l'utilisateur par exemple. Il est en revanche possible de le faire par une requête XML :
 ```xml
 <QueryList>
   <Query Id="0" Path="Security">
