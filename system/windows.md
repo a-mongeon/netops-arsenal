@@ -31,7 +31,11 @@ netsh int ip show interface
 ```
 netsh int ip set interface interface="LAN CONNECTION NAME" metric=15
 ```
-
+### Installer un package depuis PowerShell en tant qu'administrateur :
+```powershell
+$pkg = ".\EverTrust WinHorizon.2.1.0.msi"
+Start-Process msiexec -ArgumentList "/i `"$pkg`"", "/qn";
+```
 ### Filtrer de manière avancée le journal Windows :
 ```xml
 <QueryList>
