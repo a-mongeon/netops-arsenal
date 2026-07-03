@@ -20,3 +20,6 @@ Quelques expressions régulières utiles.
 ```
 (word1|word2|word3)
 ```
+
+Supprimer des lignes sur Notepad++ qui ne contient pas une chaîne de caractères :
+^(?:(?!word).)*?$\R*
