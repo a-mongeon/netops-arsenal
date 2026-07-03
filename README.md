@@ -57,4 +57,4 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [SoftHSM](https://github.com/softhsm/SoftHSMv2)
 
 ## Ressources diverses
-* [Politique de partage et d’utilisation des informations à caractère opérationnel \(TLP\)](https://www.cert.ssi.gouv.fr/csirt/politique-partage/ / https://www.first.org/tlp/)
+* [Politique de partage et d’utilisation des informations à caractère opérationnel \(TLP\)](https://www.cert.ssi.gouv.fr/csirt/politique-partage/)
