@@ -41,6 +41,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [OpenVAS \(Open Vulnerability Assessment Scanner)](https://www.openvas.org/)
 * [OpenVAS Reporting](https://github.com/TheGroundZero/openvasreporting)
 * [sqlmap \(Open-source automation for detecting and exploiting SQL injection flaws\)](https://github.com/sqlmapproject/sqlmap)
+* [Passhunt \(Tool for searching of default credentials for network devices, and more\)](https://github.com/Viralmaniar/Passhunt)
 
 ### Browser extensions
 * [SAML-Tracer \(Pour décoder des assertions SAML en temps réel\)](https://addons.mozilla.org/fr/firefox/addon/saml-tracer/)
