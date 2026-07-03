@@ -7,7 +7,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [Wallix Bastion](https://github.com/a-mongeon/netops-arsenal/blob/main/security-appliances/pam/pam_wallix_bastion.md)
   
 ## Network
-* [Cisco IOS](https://github.com/a-mongeon/netops-arsenal/blob/main/cisco_ios.md)
+* [Cisco IOS](github.com/a-mongeon/netops-arsenal/blob/main/network/cisco/ios.md)
 
 ## System
 * [Windows](https://github.com/a-mongeon/netops-arsenal/blob/main/system/windows.md)
