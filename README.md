@@ -39,7 +39,8 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 ### Pentest
 * [Kyubi \(Nginx alias traversal misconfiguration tool\)](https://github.com/shiblisec/Kyubi)
 * [OpenVAS \(Open Vulnerability Assessment Scanner)](https://www.openvas.org/)
-* [sqlmap \(Open-source automation for detecting and exploiting SQL injection flaws\)[https://github.com/sqlmapproject/sqlmap]
+* [OpenVAS Reporting](https://github.com/TheGroundZero/openvasreporting)
+* [sqlmap \(Open-source automation for detecting and exploiting SQL injection flaws\)](https://github.com/sqlmapproject/sqlmap)
 
 ### Browser extensions
 * [SAML-Tracer \(Pour décoder des assertions SAML en temps réel\)](https://addons.mozilla.org/fr/firefox/addon/saml-tracer/)
