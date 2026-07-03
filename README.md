@@ -64,3 +64,4 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 
 ## Ressources diverses
 * [Politique de partage et d’utilisation des informations à caractère opérationnel \(TLP\)](https://www.cert.ssi.gouv.fr/csirt/politique-partage/)
+* [Veille en vulnérabilité](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/vev.md)
