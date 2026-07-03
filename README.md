@@ -61,7 +61,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 ## Softwares
 * [XCA](https://www.hohnstaedt.de/xca/)
 * [SoftHSM](https://github.com/softhsm/SoftHSMv2)
-* [Oxidized \(Sauvegarder des actifs réseau\)(https://github.com/ytti/oxidized)
+* [Oxidized \(Sauvegarder des actifs réseau\)](https://github.com/ytti/oxidized)
 
 ## Ressources diverses
 * [Politique de partage et d’utilisation des informations à caractère opérationnel \(TLP\)](https://www.cert.ssi.gouv.fr/csirt/politique-partage/)
