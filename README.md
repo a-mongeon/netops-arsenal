@@ -19,6 +19,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 
 ### Miscellaneous
 * [OpenSSL](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/openssl.md)
+* [PKCS#11](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/pkcs11.md)
 * [Notepad++](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/notepad-plus-plus.md)
 * [Keepass](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/keepass.md)
 * [Regex](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/regex.md)
