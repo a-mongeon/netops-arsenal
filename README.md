@@ -19,14 +19,13 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 
 ### Miscellaneous
 * [OpenSSL](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/openssl.md)
-* [PKCS#11](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/pkcs11.md)
+* [pkcs11-tools \(A set of tools to manage objects on PKCS#11 cryptographic tokens\)](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/pkcs11-tools.md)
 * [Notepad++](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/notepad-plus-plus.md)
 * [Keepass](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/keepass.md)
 * [Regex](https://github.com/a-mongeon/netops-arsenal/blob/main/miscellaneous/regex.md)
 
 ## Tools
 ### Certificates
-* [pkcs11-tools \(A set of tools to manage objects on PKCS#11 cryptographic tokens\)](https://github.com/Mastercard/pkcs11-tools)
 * [PowerShell tool for mananing X509 certificats on Windows](https://github.com/qqt-lo4/Certificate_Management)
 * [SoftHSM](https://github.com/softhsm/SoftHSMv2)
 
