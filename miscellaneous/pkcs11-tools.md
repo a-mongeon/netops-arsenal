@@ -8,3 +8,20 @@ It is also able to interface with software tokens, such as SoftHSM, NSS, and Kry
 PKCS#11 (Public-Key Cryptography Standards #11) est une norme industrielle définissant une interface de programmation (API) indépendante de la plateforme pour interagir avec des modules cryptographiques matériels ou logiciels, tels que les cartes à puce, les clés USB de sécurité (HSM) ou les tokens.
 Elle permet aux applications d'effectuer des opérations cryptographiques (chiffrement, signature, authentification) et de gérer des objets (clés, certificats) sans connaître les détails internes du matériel sécurisé, agissant comme un pilote universel pour la sécurité matérielle.
 
+## Commandes utiles
+
+### Lister les slots disponibles :
+
+```
+p11slotinfo -l <library>
+```
+
+### Lister les clés disponibles sur un slot :
+Le slot 0 correspond au premier slot disponible.
+```
+p11ls -l <library> -s 0
+```
+Soit par exemple :
+```
+p11ls -l /usr/lib/libnethsm.so -s 0
+```
