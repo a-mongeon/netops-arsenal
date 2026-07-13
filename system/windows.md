@@ -13,6 +13,10 @@ Utiliser les fichiers de configurations suivants pour :
 ```
 certreq.exe –new requestconfig.inf <common_name>_JJMMAAAA.csr
 ```
+### 
+```
+certreq -accept cert_JJMMAAAA.cer
+```
 
 ## Divers
 ### Exécuter un programme en tant que SYSTEM
