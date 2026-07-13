@@ -1,0 +1,19 @@
+[NewRequest]
+Subject = "CN=WebServer,C=FR"
+Exportable = TRUE
+KeyLength = 4096
+KeyAlgorithm = RSA
+ProviderName = "Microsoft RSA SChannel Cryptographic Provider"
+HashAlgorithm = Sha256
+KeySpec = 1
+KeyUsage = CERT_DIGITAL_SIGNATURE_KEY_USAGE | CERT_KEY_ENCIPHERMENT_KEY_USAGE
+MachineKeySet = TRUE
+ 
+[EnhancedKeyUsageExtension]
+OID=1.3.6.1.5.5.7.3.1
+ 
+[Extensions]
+2.5.29.17 = "{text}" ; SAN - Subject Alternative Name
+_continue_ = "dns=webserver.domain.com&" 
+_continue_ = "IP Address=192.168.1.1&"
+_continue_ = "IP Address=192.168.1.2&"
