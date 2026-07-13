@@ -5,6 +5,13 @@ Récupérer un attribut d'un objet AD :
 ```powershell
 (Get-LocalUser -name <name>).SID.Value
 ```
+## Certificats
+### Création d'une demande de signature de certificat sous ECDSA
+Utiliser le [fichier de configuration](https://github.com/a-mongeon/netops-arsenal/edit/main/system/cert_request_ecdsa.inf).
+```
+certreq.exe –new requestconfig.inf <common_name>_JJMMAAAA.csr
+```
+
 ## Divers
 ### Exécuter un programme en tant que SYSTEM
 Avec l'outil PsExec disponible dans les [PsTools](https://learn.microsoft.com/fr-fr/sysinternals/downloads/pstools), il est possible d'exécuter un processus en tant que SYSTEM :
