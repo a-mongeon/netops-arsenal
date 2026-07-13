@@ -6,8 +6,10 @@ Récupérer un attribut d'un objet AD :
 (Get-LocalUser -name <name>).SID.Value
 ```
 ## Certificats
-### Création d'une demande de signature de certificat sous ECDSA
-Utiliser le [fichier de configuration](https://github.com/a-mongeon/netops-arsenal/edit/main/system/cert_request_ecdsa.inf).
+### Création d'une demande de signature de certificat
+Utiliser les fichiers de configurations suivants pour :
+* [ECDSA](https://github.com/a-mongeon/netops-arsenal/blob/main/system/windows/template.ecdsa.requestconfig.inf).
+* [RSA](https://github.com/a-mongeon/netops-arsenal/blob/main/system/windows/template.rsa.requestconfig.inf)
 ```
 certreq.exe –new requestconfig.inf <common_name>_JJMMAAAA.csr
 ```
