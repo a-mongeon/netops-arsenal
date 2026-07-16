@@ -22,6 +22,12 @@ curl -vv telnet://<ip>:<port>
 ```shell
 echo"<14>Test TCP syslog message" >> /dev/tcp/<target_hostname_or_ip_address>/514
 ```
+## Divers
+Monter un media amovible avec un compte particulier comme owner (par exemple, pour `tcpdump`, afin d'écrire une capture de trame directement sur le média amovible) :
+```shell
+mount -t exfat -o umask=0002,uid=106,gid=108 /dev/sdc1 /media/live/KINGSTON
+```
+```
 
 #### En UDP :
 ```shell
