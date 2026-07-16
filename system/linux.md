@@ -30,6 +30,7 @@ echo "<14>Test UDP syslog message" >> /dev/udp/<target_hostname_or_ip_address>/5
 ## Divers
 Monter un media amovible avec un compte particulier comme owner (par exemple, pour `tcpdump`, afin d'écrire une capture de trame directement sur le média amovible) :
 ```shell
-mount -t exfat -o umask=0002,uid=106,gid=108 /dev/sdc1 /media/live/<folder>
+mount -t ext4 -o umask=0002,uid=106,gid=108 /dev/sdc1 /media/live/<folder>
 ```
+> N.B : Le media doit être formatté sur un système de fichier compatible avec les permissions Unix. EXT4 par exemple.
 
