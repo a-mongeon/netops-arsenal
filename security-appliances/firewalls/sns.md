@@ -73,7 +73,7 @@ sfctl -s addrlist
 ## Divers
 Télécharger un fichier :
 ```
-curltool
+curltool -r <GET|POST> -u <URI(http://XXXXXXX> -o <filename>
 ```
 Tester si le firewall peut joindre une adresse IP en particulier :
 ```
