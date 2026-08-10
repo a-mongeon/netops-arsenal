@@ -18,3 +18,11 @@ curl -I https://www.domain.com/index.html
 ```
 curl -k https://www.domain.com/index.html
 ```
+## Tester un port 
+```
+curl -vv telnet://<ip>:<port>
+```
+## Télécharger un fichier
+```
+curl http://example.com --output my.file
+```
