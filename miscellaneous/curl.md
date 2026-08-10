@@ -14,7 +14,7 @@ curl https://www.domain.com/index.html -H 'Host: www.domain.com' -H 'Content-Typ
 ```
 curl -I https://www.domain.com/index.html
 ```
-## Désactiver les vérification TLS
+## Désactiver la vérification TLS
 ```
 curl -k https://www.domain.com/index.html
 ```
