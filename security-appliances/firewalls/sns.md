@@ -74,7 +74,7 @@ sfctl -s addrlist
 ### Télécharger un fichier
 Pour télécharger un fichier sur un boîtier SNS (l'outil curl n'est pas présent) :
 ```
-curltool -r <GET|POST> -u <URI(http://XXXXXXX> -o <filename>
+curltool -r <GET|POST> -u <URI> -o <filename>
 ```
 ou :
 ```
