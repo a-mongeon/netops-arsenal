@@ -71,10 +71,20 @@ sfctl -s addrlist
 ```
 
 ## Divers
-Télécharger un fichier :
+### Télécharger un fichier
+Pour télécharger un fichier sur un boîtier SNS (l'outil curl n'est pas présent) :
 ```
 curltool -r <GET|POST> -u <URI(http://XXXXXXX> -o <filename>
 ```
+ou :
+```
+fetch <URI> -o <filename>
+```
+et pour outrepasser des erreurs TLS :
+```
+fetch <URI> -o <filename> --no-verify-peer --no-verify-hostname
+```
+### Tests de connexions
 Tester si le firewall peut joindre une adresse IP en particulier :
 ```
 telnet 192.168.1.1 22
@@ -83,6 +93,7 @@ Tester si le firewall peut joindre une adresse IP en particulier (et forcer une 
 ```
 telnet -s 192.168.1.254 192.168.1.1 22
 ```
+### Gestion de la charge :
 Voir la charge du firewall :
 ```
 top -CHPS
