@@ -44,3 +44,7 @@ Downgrade un paquet :
 ```shell
 yum downgrade paquet-1.0.1
 ```
+Lister les repositories disponibles :
+```shell
+subscription-manager repos --list
+```
