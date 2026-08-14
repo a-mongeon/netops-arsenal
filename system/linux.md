@@ -1,6 +1,11 @@
 # Linux
 
 ## Commandes diverses utiles
+### Recherche de texte
+Rechercher une chaîne de caractère sans la casse
+```shell
+grep -i <text> <file>
+```
 ### Lister les ports en écoute (TCP only)
 ```shell
 ss -lt
