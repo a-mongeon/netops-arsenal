@@ -48,3 +48,7 @@ Lister les repositories disponibles :
 ```shell
 subscription-manager repos --list
 ```
+Lister les versions disponibles pour un paquet :
+```shell
+dnf list --showduplicates <nom_du_paquet>
+```
