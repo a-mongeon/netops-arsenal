@@ -39,3 +39,8 @@ mount -t ext4 -o umask=0002,uid=106,gid=108 /dev/sdc1 /media/live/<folder>
 ```
 > N.B : Le media doit être formatté sur un système de fichier compatible avec les permissions Unix. EXT4 par exemple.
 
+## Gestionnaire de paquets DNF
+Downgrade un paquet :
+```shell
+yum downgrade paquet-1.0.1
+```
