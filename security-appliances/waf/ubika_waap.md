@@ -12,4 +12,7 @@ Ou
 ```
 User-Agent : ${string_of(http.request.headers['User-Agent'])}
 ```
-
+Ou
+```
+User-Agent : ${var_lookup(http.request.headers['User-Agent'])}
+```
