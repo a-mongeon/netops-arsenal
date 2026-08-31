@@ -46,6 +46,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [Passhunt \(Tool for searching of default credentials for network devices, and more\)](https://github.com/Viralmaniar/Passhunt)
 * [Nikto \(Web server scanner\)](https://github.com/sullo/nikto)
 * [Wifite \(WiFi Analyser\)](https://github.com/derv82/wifite2)
+* [John the Ripper \(Password cracker\)](https://github.com/openwall/john)
 
 ### Browser extensions
 * [SAML-Tracer \(Pour décoder des assertions SAML en temps réel\)](https://addons.mozilla.org/fr/firefox/addon/saml-tracer/)
