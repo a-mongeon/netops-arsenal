@@ -34,6 +34,8 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [EventLogExpert \(Windows\)](https://github.com/microsoft/EventLogExpert)
 * [Sniffnet \(Monitoring du trafic réseau\)](https://github.com/GyulyVGC/sniffnet)
 * [PsTools](https://learn.microsoft.com/fr-fr/sysinternals/downloads/pstools)
+* [Using WUA to Scan for Updates Offline \(.vbs script\)](https://learn.microsoft.com/en-us/windows/win32/wua_sdk/using-wua-to-scan-for-updates-offline?tabs=vbscript)
+* [Using WUA to Scan for Updates Offline \(.ps1 script\)](https://www.powershellgallery.com/packages/Scan-UpdatesOffline/1.0)
 
 ### Notepad++ plugins
 * [comparePlus](https://github.com/pnedev/comparePlus)
