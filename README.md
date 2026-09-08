@@ -36,6 +36,7 @@ Compilation d'outils et de commandes divers pour de l'exploitation réseau et du
 * [PsTools](https://learn.microsoft.com/fr-fr/sysinternals/downloads/pstools)
 * [Using WUA to Scan for Updates Offline \(.vbs script\)](https://learn.microsoft.com/en-us/windows/win32/wua_sdk/using-wua-to-scan-for-updates-offline?tabs=vbscript)
 * [Using WUA to Scan for Updates Offline \(.ps1 script\)](https://www.powershellgallery.com/packages/Scan-UpdatesOffline/1.0)
+* [Microsoft Security Compliance Toolkit \(Set of tools to download, analyze, test, edit and store Microsoft-recommended security configuration baselines for Windows\)](https://www.microsoft.com/en-us/download/details.aspx?id=55319)
 
 ### Notepad++ plugins
 * [comparePlus](https://github.com/pnedev/comparePlus)
