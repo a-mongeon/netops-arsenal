@@ -52,7 +52,7 @@ netsh int ip set interface interface="LAN CONNECTION NAME" metric=15
 ### Installer un package depuis PowerShell en tant qu'administrateur :
 Pour installer un package en tant qu'administrateur et éviter des blocages éventuels sur des serveurs durcis, il est possible de passer par PowerShell :
 ```powershell
-$pkg = ".\EverTrust WinHorizon.2.1.0.msi"
+$pkg = ".\<software_setup>.msi"
 Start-Process msiexec -ArgumentList "/i `"$pkg`""
 ```
 ### Filtrer de manière avancée le journal Windows :
